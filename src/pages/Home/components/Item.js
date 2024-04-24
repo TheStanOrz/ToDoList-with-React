@@ -9,8 +9,7 @@ const Item = ({ id, note, date, time, deleteData, submittingDataStatus }) => {
     <div className="item">
       <div>
         <p>{note}</p>
-        <p>{date}</p>
-        <p>{time}</p>
+        <p>{`${date} ${time}`}</p>
       </div>
       <button onClick={deleteItem} className="remove">
         刪除

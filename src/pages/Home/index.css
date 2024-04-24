@@ -1,4 +1,6 @@
-
+*{
+  user-select: none;
+}
 .app {
     width: 100%;
     padding: 20px;
@@ -36,6 +38,7 @@
   
   .list {
     padding-top: 20px;
+
   }
   
   .item {
