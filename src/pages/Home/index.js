@@ -11,7 +11,7 @@ async function fetchData(setData) {
 }
 
 async function fetchSetData(data) {
-  const res = await fetch(API_GET_DATA, {
+  await fetch(API_GET_DATA, {
     method: "PUT",
     headers: {
       "Content-type": "application/json",
